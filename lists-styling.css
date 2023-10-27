@@ -1,0 +1,56 @@
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.top-part{
+    text-align: center;
+}
+#input{
+    width: 55rem;
+    height: 2.8rem;
+    text-align: center;
+    margin: 0 auto;
+}
+#addbtn{
+    width: 3.4rem;
+    height: 2.9rem;
+    background-color:rgb(37, 123, 166);
+    color: aliceblue;
+    font-size: 1.1rem
+}
+li{
+    border: 1px solid black;
+    width: 75rem;
+    height: 3.2rem;
+    font-size: 1.3rem;
+    margin: 0.5rem 20rem;
+    background-color: rgb(246, 246, 246);
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center; 
+    padding: 0 1rem; 
+    text-align: center;
+}
+ul{
+    align-items: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.finish-btn{
+    background-color: green;
+    padding: 0.4rem 0.8rem;
+    margin-left: auto;
+}
+.delete-btn{
+    background-color: red;
+    padding: 0.4rem 0.8rem;
+}
+.finish-btn, .delete-btn{
+    color: white;
+    display: none;  
+}
+
+
+p{
+    width: 80%;;
+}
